@@ -10,8 +10,7 @@ function App() {
   let [toogle1,Settoogle1] = useState(true);
   let [toogle2,Settoogle2] = useState(true);
   return <>
-  
-   <Navbar data={{count,Setstatus}}/>
+ <Navbar data={{count,Setstatus}}/>
    <Header/>
   <section className="py-5">
      <div className="container px-4 px-lg-5 mt-5">
